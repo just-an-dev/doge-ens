@@ -1,0 +1,7 @@
+body {
+  background: url(doge.png) transparent no-repeat;
+}
+
+.footer {
+  min-height: 5em;
+}
