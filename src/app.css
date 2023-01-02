@@ -1,7 +1,33 @@
-body {
-  background: url(doge.png) transparent no-repeat;
+* {
+  box-sizing: border-box;
+  font-family: arial;
 }
-
+body {
+  margin: 0;
+  padding: 0;
+}
+#ENS {
+  margin: auto;
+  display: block;
+  border:1px solid rgb(30,41,59);
+  position: relative;
+}
 .footer {
   min-height: 5em;
+}
+nav{
+    height: ;
+    width: 100%;
+    background-color: rgb(30,41,59);
+    z-index: 10;display: flex;justify-content: space-between;
+}
+.sdt-logo{
+    text-align: center;
+    margin-left: 2%;
+    padding-top: 1%;
+}
+.sdt-logo img {
+    height: 37px;
+    width: 107px;
+    margin-top: 0px;
 }
